@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/video.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <title>Youtube.com Clone</title>
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="./Icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="./Icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="./Icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="./Icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="./Icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            
+            <div class="youtube-apps-container">
+                <img class="youtube-apps-icon" src="./Icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="./Icons/notifications.svg" alt="">
+                <div class="tooltip">Notifications</div>
+                <div class="notifications-count">3</div>
+            </div>
+            <img class="current-user-picture" src="./profile-images/my-channel.jpg" alt="">
+        </div>
+        
+    </header>
+    <header class="sidebar">
+        <div class="sidebar-link">
+            <img src="./Icons/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./Icons/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./Icons/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./Icons/originals.svg" alt="">
+            <div>originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./Icons/youtube-music.svg" alt="">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./Icons/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </header >
+
+    <main>
+        <section class="video-grid">
+            <div class="video-preview" >
+                <div class="thumbnail-row">   
+                    <a href="https://www.youtube.com/watch?v=ti1Pvq1___o&t"></a>
+                    <img class="thumbnail" src="./thumbnails/1.png">
+                    <div class="video-time">
+                        <p>12:39</p>
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                        <div class="channel-picture-container">
+                            <img class="profile-picture-tooltip" src="./profile-images/1.jpg" >
+                            <div>
+                                <p> <strong>AwakenToast</strong></p>
+                                <p>246 mil inscritos</p>
+                            </div>
+                        </div>
+                        <img class="profile-picture" src="./profile-images/1.jpg" >
+                    </div>
+                    <div class="video-info" >
+                        <a class="video-title" href="https://www.youtube.com/watch?v=ti1Pvq1___o&t">This VR Game is FREE TO PLAY and it's AWESOME</a>
+                        <p class="video-channel">AwakenToast</p>
+                        <p class="video-stats">52 mil visualizações &#183; há 8 dias</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview" >
+                <div class="thumbnail-row">   
+                    <a href="https://www.youtube.com/watch?v=8mAITcNt710"></a>
+                    <img class="thumbnail" src="./thumbnails/2.png">
+                    <div class="video-time">
+                        <p>24:51:37</p>
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                        <div class="channel-picture-container">
+                            <img class="profile-picture-tooltip" src="./profile-images/2.jpg" >
+                            <div>
+                                <p> <strong>freeCodeCamp.org</strong></p>
+                                <p>7,09 mi de inscritos</p>
+                            </div>
+                        </div>
+                        <img class="profile-picture" src="./profile-images/2.jpg" alt="">
+                    </div>
+                    <div class="video-info" >
+                        <a class="video-title" href="https://www.youtube.com/watch?v=8mAITcNt710">Harvard CS50 – Full Computer Science University Course</a>
+                        <p class="video-channel">freeCodeCamp.org</p>
+                        <p class="video-stats">2,3 mi de visualizações &#183; há 8 meses</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview" >
+                <div class="thumbnail-row">   
+                    <a href="https://www.youtube.com/watch?v=4HlxUElU4g4"></a>
+                    <img class="thumbnail" src="./thumbnails/3.png">
+                    <div class="video-time">
+                        <p>17:10</p>
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                        <div class="channel-picture-container">
+                            <img class="profile-picture-tooltip" src="./profile-images/3.jpg" >
+                            <div>
+                                <p> <strong>Hafu Go</strong></p>
+                                <p>1,19 mi de inscritos</p>
+                            </div>
+                        </div>
+                        <img class="profile-picture" src="./profile-images/3.jpg" alt="">
+                    </div>
+                    <div class="video-info" >
+                        <a class="video-title" href="https://www.youtube.com/watch?v=4HlxUElU4g4">Surviving on $0.01 in America's Most Expensive City</a>
+                        <p class="video-channel">Hafu Go</p>
+                        <p class="video-stats">2,8 mi de visualizações &#183; há 8 dias</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview" >
+                <div class="thumbnail-row">   
+                    <a href="https://www.youtube.com/watch?v=XvCMv-oP8vc"></a>
+                    <img class="thumbnail" src="./thumbnails/4.png">
+                    <div class="video-time">
+                        <p>16:23</p>
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                        <div class="channel-picture-container">
+                            <img class="profile-picture-tooltip" src="./profile-images/4.jpg" >
+                            <div>
+                                <p> <strong>Vince Vintage</strong></p>
+                                <p>254 mil inscritos</p>
+                            </div>
+                        </div>
+                        <img class="profile-picture" src="./profile-images/4.jpg" alt="">
+                    </div>
+                    <div class="video-info" >
+                        <a class="video-title" href="https://www.youtube.com/watch?v=XvCMv-oP8vc">How This Device illegally Won $44.9 Million From Las Vegas</a>
+                        <p class="video-channel">Vince Vintage</p>
+                        <p class="video-stats">2,5 mi de visualizações &#183; há 8 meses</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview" >
+                <div class="thumbnail-row">   
+                    <a href="https://www.youtube.com/watch?v=hFRlnNci3Rs"></a>
+                    <img class="thumbnail" src="./thumbnails/5.png">
+                    <div class="video-time">
+                        <p>24:56</p>
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                        <div class="channel-picture-container">
+                            <img class="profile-picture-tooltip" src="./profile-images/5.jpg" >
+                            <div>
+                                <p> <strong>mattbatwings</strong></p>
+                                <p>102 mil inscritos</p>
+                            </div>
+                        </div>
+                        <img class="profile-picture" src="./profile-images/5.jpg" alt="">
+                    </div>
+                    <div class="video-info" >
+                        <a class="video-title" href="https://www.youtube.com/watch?v=hFRlnNci3Rs">I Made a 3D Renderer with just redstone!!</a>
+                        <p class="video-channel">mattbatwings</p>
+                        <p class="video-stats">565 mil visualizações &#183; há 2 meses</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview" >
+                <div class="thumbnail-row">   
+                    <a href="https://www.youtube.com/watch?v=Qhaz36TZG5Y"></a>
+                    <img class="thumbnail" src="./thumbnails/6.png">
+                    <div class="video-time">
+                        <p>5:51</p>
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                        <div class="channel-picture-container">
+                            <img class="profile-picture-tooltip" src="./profile-images/6.jpg" >
+                            <div>
+                                <p> <strong>Fireship</strong></p>
+                                <p>1,8 mi de inscritos</p>
+                            </div>
+                        </div>
+                        <img class="profile-picture" src="./profile-images/6.jpg" alt="">
+                    </div>
+                    <div class="video-info" >
+                        <a class="video-title" href="https://www.youtube.com/watch?v=Qhaz36TZG5Y">10 CSS Pro Tips - Code this, NOT that!</a>
+                        <p class="video-channel">Fireship</p>
+                        <p class="video-stats">1,7 mi visualizações &#183; há 1 ano</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
